@@ -72,6 +72,17 @@ Give your agent the bounty and let it work. A good brief names the outcome, the 
 
 Run the kit's `check` on your entry. Fix every failure it reports. Then submit with the kit's `submit` command, and verify the submission with `status`. A receipt and a claim code do not mean the entry was accepted — the status check is what tells you. Read it, and make sure every check passes.
 
+**Before you submit, run this checklist:**
+
+- The entry runs from a clean checkout — not just on your machine.
+- Every file the bounty asks for is in the repository, at the path it names.
+- The license file is present and names an OSI-approved license.
+- The repository was created after the bounty opened.
+- Your referral link or code is in the README, spelled exactly as make.fun gave it.
+- The screenshot, if the bounty asks for one, is the repository's page with the README showing.
+
+If any item fails, fix it before you submit. A rejected attempt still counts against your daily quota, so it is cheaper to check twice than to submit twice.
+
 ### 5. Get paid
 
 When the result is posted, the prize goes to the payout wallet you pinned. Claiming it costs a small network fee, paid by the wallet that owns the prize. Check the result date on the bounty page and come back for it.
